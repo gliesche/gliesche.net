@@ -1,4 +1,29 @@
 /*
+ * Reset
+ */
+
+ html {
+  font-family: sans-serif; // 1
+  -ms-text-size-adjust: 100%; // 2
+  -webkit-text-size-adjust: 100%; // 2
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+html, body {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/*
  *  fontello code for icon font
  */
 @font-face {
