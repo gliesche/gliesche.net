@@ -101,11 +101,7 @@ body {
     padding: 0.2em 0;
 }
 
-div[role='main'] {
-    text-align: center;
-    padding: 3em 1em 2em 1em;
-    color: #424242;
-}
+
 
 a {
     text-decoration: none;
@@ -130,8 +126,17 @@ strong {
  *  Content
  */
 
- div[role="main"] {
- }
+ div[role='main'] {
+    color: #424242;
+    text-align: center;
+    padding: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    box-align: center;
+}
+
 
 .felix {
     position: relative;
